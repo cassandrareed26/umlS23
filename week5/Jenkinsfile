@@ -9,7 +9,7 @@ kaniko spec:
     gcr.io/kaniko-project/executor:latest
     args:
     - "--context=git://github.com/scriptcamp/kubernetes-kaniko"
-    - "--destination=<dockerhub-username>/kaniko-demo-im
+    - "--destination=creed26/kaniko-demo-im
     age:1.0" volumeMounts:
     - name: kaniko-secret
       mountPath:
